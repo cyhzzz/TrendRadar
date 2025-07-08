@@ -2445,14 +2445,16 @@ class NewsAnalyzer:
             ("toutiao", "今日头条"),
             ("baidu", "百度热搜"),
             ("wallstreetcn-hot", "华尔街见闻"),
-            ("thepaper", "澎湃新闻"),
-            ("bilibili-hot-search", "bilibili 热搜"),
             ("cls-hot", "财联社热门"),
-            ("ifeng", "凤凰网"),
-            "tieba",
-            "weibo",
-            "douyin",
-            "zhihu",
+            ("cls-depth", "财联社深度"),
+            ("weibo", "微博"),
+            ("douyin", "抖音"),
+            ("zhihu", "知乎"),
+            ("_36kr", "36氪"),
+            ("fastbull", "法布财经"),
+            ("gelonghui", "格隆汇"),
+            ("jin10", "金十数据"),
+            ("mktnews", "MTKNews"),
         ]
 
         print(f"开始爬取数据，请求间隔 {self.request_interval} 毫秒")
